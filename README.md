@@ -1,5 +1,9 @@
 # Online-shopping-predictor
-AI to predict whether online shopping customers will complete a purchase
+Machine learning model to predict whether online shopping customers will complete a purchase
 
-Given information about a user — how many pages they’ve visited, whether they’re shopping on a weekend, what web browser they’re using, 
-the types of pages users have visited in the session, etc - predict whether or not the user will make a purchase using a nearest-neighbor classifier
+Analyzed various information about users in a session, such as types of pages users have visited in the
+session(Administrative, Product Related, etc), how close the date of the user’s session is to a special day (like
+Valentine’s Day or Mother’s Day), how much time the user spent on any of those pages, etc
+
+Trained a nearest neighbour classifier with that data, with an accuracy of 91% for users who did not make a
+purchase and 40% for users who made a purchase
