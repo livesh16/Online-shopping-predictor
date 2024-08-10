@@ -6,4 +6,4 @@ session(Administrative, Product Related, etc), how close the date of the user’
 Valentine’s Day or Mother’s Day), how much time the user spent on any of those pages, etc
 
 Trained a nearest neighbour classifier and Multilayer Perceptron with that data, having an accuracy of 91% for users who did not make a
-purchase and 40% for users who made a purchase
+purchase and 60% for users who made a purchase
